@@ -30,6 +30,30 @@
       "day": "Tuesday 28th at 10PM",
       "reminder": false,
       "id": 99058
+    },
+    {
+      "text": "Vue Hackathon",
+      "day": "Sunday 26th at 9PM",
+      "reminder": false,
+      "id": 99059
+    },
+    {
+      "text": "Do Laundry",
+      "day": "Sunday 26th at 9AM",
+      "reminder": true,
+      "id": 99060
+    },
+    {
+      "text": "Ironing",
+      "day": "Sunday 26th at 11AM",
+      "reminder": true,
+      "id": 99061
+    },
+    {
+      "text": "Read As The Flies by Jeffery Archer",
+      "day": "Sunday @ 1PM",
+      "reminder": true,
+      "id": 99062
     }
   ]
 }

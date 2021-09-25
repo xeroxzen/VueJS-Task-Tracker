@@ -2,9 +2,9 @@ module.exports = {
   devServer: {
     proxy: {
       "^/api": {
-        target: "https://genuine-fake-server-app.herokuapp.com",
+        target: "http://localhost:5000",
         ws: true,
-        logLevel: "production",
+        logLevel: "debug",
         changeOrigin: true,
         pathRewrite: { "^/api": "/" },
       },
