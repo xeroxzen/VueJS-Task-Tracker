@@ -2,9 +2,6 @@
   <button @click="onClick()" :style="{ background: color }" class="btn">
     {{ text }}
   </button>
-  <!-- v-on:click=onClick() alternatives -->
-  <!-- @click=onClick() -->
-  <!-- :click=onClick()  -->
 </template>
 
 <script>

@@ -14,22 +14,22 @@
       "reminder": true
     },
     {
-      "id": "4",
-      "text": "Give Zandie a call",
-      "day": "Sunday 26th at 6PM",
-      "reminder": true
-    },
-    {
-      "id": 91470,
-      "text": "Call Vuyo",
-      "day": "Monday 27th at 7PM",
-      "reminder": false
-    },
-    {
       "id": 99056,
       "text": "Study for Math Test",
       "day": "Tuesday 28th at 12PM",
       "reminder": true
+    },
+    {
+      "text": "Database Concepts Presentation",
+      "day": "Tuesday 28th at 2PM",
+      "reminder": true,
+      "id": 99057
+    },
+    {
+      "text": "Submit Math Exercise",
+      "day": "Tuesday 28th at 10PM",
+      "reminder": false,
+      "id": 99058
     }
   ]
 }
