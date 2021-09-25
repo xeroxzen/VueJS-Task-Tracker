@@ -1,16 +1,67 @@
 <template>
   <div class="container">
     <Header title="Task Tracker" />
+    <Tasks
+      @toggle-reminder="toggleReminder"
+      @delete-task="deleteTask"
+      :tasks="tasks"
+    />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header";
+import Tasks from "./components/Tasks";
 
 export default {
   name: "App",
   components: {
     Header,
+    Tasks,
+  },
+  data() {
+    return {
+      tasks: [],
+    };
+  },
+
+  methods: {
+    deleteTask(id) {
+      if (confirm("Are you sure you want to delete this task?")) {
+        this.tasks = this.tasks.filter((task) => task.id !== id);
+      }
+    },
+    toggleReminder(id) {
+      this.tasks = this.tasks.map((task) =>
+        task.id === id ? { ...task, reminder: !task.reminder } : task
+      );
+    },
+  },
+
+  created() {
+    this.tasks = [
+      {
+        id: 1,
+        text: "Learn Vue.js",
+        day: "Saturday 25th at 12pm",
+        reminder: true,
+        completed: true,
+      },
+      {
+        id: 2,
+        text: "Learn Data Communication & Networking",
+        day: "Saturday 25th at 5pm",
+        reminder: true,
+        completed: false,
+      },
+      {
+        id: 3,
+        text: "Learn Data Structures",
+        day: "Saturday 25th at 8pm",
+        reminder: false,
+        completed: false,
+      },
+    ];
   },
 };
 </script>
@@ -26,7 +77,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  max-width: 500px;
+  max-width: 600px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
