@@ -4,25 +4,26 @@
       "id": "1",
       "text": "Learn Vue.js",
       "day": "Saturday 25th at 12pm",
-      " reminder": true
+      " reminder": true,
+      "reminder": true
     },
     {
       "id": "3",
       "text": "Learn Data Structures",
       "day": "Saturday 25th at 8pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": "4",
       "text": "Give Zandie a call",
       "day": "Sunday 26th at 6PM",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 91470,
       "text": "Call Vuyo",
       "day": "Monday 27th at 7PM",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 99056,
