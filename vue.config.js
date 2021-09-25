@@ -4,7 +4,7 @@ module.exports = {
       "^/api": {
         target: "https://genuine-fake-server-app.herokuapp.com",
         ws: true,
-        logLevel: "debug",
+        logLevel: "production",
         changeOrigin: true,
         pathRewrite: { "^/api": "/" },
       },
