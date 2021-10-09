@@ -11,7 +11,7 @@
       "id": "3",
       "text": "Learn Data Structures",
       "day": "Saturday 25th at 8pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 99056,
@@ -28,13 +28,13 @@
     {
       "text": "Submit Math Exercise",
       "day": "Tuesday 28th at 10PM",
-      "reminder": false,
+      "reminder": true,
       "id": 99058
     },
     {
       "text": "Vue Hackathon",
       "day": "Sunday 26th at 9PM",
-      "reminder": false,
+      "reminder": true,
       "id": 99059
     },
     {
@@ -54,6 +54,12 @@
       "day": "Sunday @ 1PM",
       "reminder": true,
       "id": 99062
+    },
+    {
+      "text": "Write Math Test",
+      "day": "Sunday 3rd at 11PM",
+      "reminder": true,
+      "id": 99063
     }
   ]
 }
